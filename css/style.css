@@ -56,7 +56,9 @@ nav li a{
     font-weight: bold;
 }
 /* nav end */
-
+body{
+    background-color: #f5f8ff;
+}
 /* hero-banner start */
 .hero-section{
     position: absolute;
@@ -107,7 +109,7 @@ nav li a{
     justify-content: space-between;
     margin-left: 10%;
     height: 328px;
-   background-color: #FFFFFF; 
+   background-color: #f5f8ff; 
 }
 .action-text{
         display: flex;
@@ -191,3 +193,84 @@ nav li a{
     color: #72737f;
 }
 /* productivity end */
+/* member title start */
+.member-hedding{
+    margin-left: 10%;
+    width: 80%;
+    height: 50px;
+   
+}
+.member-title{
+ font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 50px;
+    text-align: center;
+}
+/* member title end */
+/* card section start */
+.member-card{
+  width: 26.5%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+.start-rate{
+    margin-bottom: 20px;
+}
+.text-title{
+    margin-bottom: 10px;
+    font-family: "Inter", sans-serif;
+}
+.text-del{
+    font-family: "Inter", sans-serif;
+    color: #1e1e1e;
+}
+.members-index {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* ei line image er pase gap dibe */
+}
+.card-details{
+    margin-top: 10px;
+}
+
+.member-index img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* round image */
+}
+
+.Reviewer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Reviewer-name{
+color: #757575;
+}
+.Reviewer-date{
+    color:  #757575;
+}
+.Reviewer .name {
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0;
+}
+
+.Reviewer.date {
+  font-size: 13px;
+  color: #aaa;
+  margin: 0;
+}
+
+.cards{
+   display: flex;
+   flex-wrap: wrap;          
+   justify-content: center;  
+   gap: 10px; 
+}
+/* card section start */
