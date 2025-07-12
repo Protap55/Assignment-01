@@ -111,7 +111,7 @@ body{
     height: 328px;
    background-color: #f5f8ff; 
 }
-.action-text{
+.container-action{
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -158,7 +158,7 @@ body{
 }
 /* action-section end */
 /* productivity start */
-.productivity-users{
+.productivity-container{
     height: 300px;
     background-color:#e5e7ff;
     width: 80%;
@@ -403,6 +403,38 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #3737d0;
+  background-color: #37d072;
 }
 /* form end */
+/* fotter start */
+.footer-section{
+    height: 350px;
+    width: 100%;
+    text-align: center;
+  background-color: #FFFFFF;
+  padding-top: 20px;
+    
+}
+.footer-section a{
+    text-decoration: none;
+    margin: 10px;
+    color: #8987A1;
+}
+.footer-title{
+     font-family: "Inter", sans-serif;
+     font-size: 80px;
+     color: #4E47FF;
+     margin-bottom: 8px;
+}
+.footer-des{
+    color: #8987A1;
+ 
+}
+.menu{
+    margin-top: 20px;
+}
+.footer-container{
+    margin-top: 100px;
+}
+/* fotter end */
+
