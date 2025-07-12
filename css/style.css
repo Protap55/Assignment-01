@@ -328,3 +328,81 @@ color: #757575;
     border-radius: 50px;
 }
 /* ready to focus end */
+
+/* form start */
+
+/* Container layout */
+.form-section {
+  padding: 60px 20px;
+  font-family: "Inter", sans-serif;
+  width: 80%;
+  margin: 0px auto;
+  height: 500px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: 0 auto;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* Left Side - Text */
+.form-text h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+ font-family: "Raleway", sans-serif;
+  margin-top: 120px;
+  max-width: 300px;
+}
+
+/* Right Side - Form */
+.form-box {
+  flex: 1;
+  min-width: 300px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Labels */
+.eml {
+  font-size: 14px;
+  font-weight: 600;
+  color: #222;
+font-family: "Inter", sans-serif;
+}
+
+/* Input and Textarea */
+input,
+textarea {
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Submit Button */
+button[type="submit"] {
+  padding: 12px;
+  background-color:#4E47FF;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #3737d0;
+}
+/* form end */
